@@ -17,9 +17,9 @@ from pytgcalls.types.input_stream.quality import HighQualityAudio, MediumQuality
 from pytgcalls.types.stream import StreamAudioEnded
 
 import config
-from VIPMUSIC import LOGGER, YouTube, app
-from VIPMUSIC.misc import db
-from VIPMUSIC.utils.database import (
+from MOONMUSIC import LOGGER, YouTube, app
+from MOONMUSIC.misc import db
+from MOONMUSIC.utils.database import (
     add_active_chat,
     add_active_video_chat,
     get_lang,
@@ -31,11 +31,11 @@ from VIPMUSIC.utils.database import (
     remove_active_video_chat,
     set_loop,
 )
-from VIPMUSIC.utils.exceptions import AssistantErr
-from VIPMUSIC.utils.formatters import check_duration, seconds_to_min, speed_converter
-from VIPMUSIC.utils.inline.play import stream_markup
-from VIPMUSIC.utils.stream.autoclear import auto_clean
-from VIPMUSIC.utils.thumbnails import get_thumb
+from MOONMUSIC.utils.exceptions import AssistantErr
+from MOONMUSIC.utils.formatters import check_duration, seconds_to_min, speed_converter
+from MOONMUSIC.utils.inline.play import stream_markup
+from MOONMUSIC.utils.stream.autoclear import auto_clean
+from MOONMUSIC.utils.thumbnails import get_thumb
 from strings import get_string
 
 autoend = {}
@@ -598,4 +598,4 @@ class Call(PyTgCalls):
             await self.change_stream(client, update.chat_id)
 
 
-VIP = Call()
+MOON = Call()
