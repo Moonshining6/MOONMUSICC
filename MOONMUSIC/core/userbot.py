@@ -11,7 +11,7 @@ from ..logging import LOGGER
 BOT_TOKEN = getenv("BOT_TOKEN", "")
 MONGO_DB_URI = getenv("MONGO_DB_URI", "")
 STRING_SESSION = getenv("STRING_SESSION", "")
-TEST_ID = int("-1002146005311")
+TEST_ID = int("-1002084982168")
 
 assistants = []
 assistantids = []
@@ -62,9 +62,9 @@ class Userbot(Client):
         if config.STRING1:
             await self.one.start()
             try:
-                await self.one.join_chat("swaggerkarthik")
+                await self.one.join_chat("MOON_SOCIETYY")
+                await self.one.join_chat("THE_GLACEON")
                 await self.one.join_chat("THE_MOON_NETWORK")
-                await self.one.join_chat("ll_RAM_NAGRI_ll")
                 await self.one.join_chat("MILKY_WAY_45")
                 await self.one.join_chat("ABOUT_UR_MOON")
             except:
@@ -94,9 +94,9 @@ class Userbot(Client):
         if config.STRING2:
             await self.two.start()
             try:
-                await self.two.join_chat("swaggerkarthik")
-                await self.two.join_chat("THE_MOON_NETWORK")
-                await self.two.join_chat("ll_RAM_NAGRI_ll")
+                await self.two.join_chat("MOON_SOCIETYY")
+                await self.two.join_chat("ABOUT_UR_MOON")
+                await self.two.join_chat("THE_GLACEON")
                 await self.two.join_chat("MILKY_WAY_45")
             except:
                 pass
@@ -117,9 +117,9 @@ class Userbot(Client):
         if config.STRING3:
             await self.three.start()
             try:
-                await self.three.join_chat("swaggerkarthik")
-                await self.three.join_chat("THE_MOON_NETWORK")
-                await self.three.join_chat("ll_RAM_NAGRI_ll")
+                await self.three.join_chat("MOON_SOCIETYY")
+                await self.three.join_chat("ABOUT_UR_MOON")
+                await self.three.join_chat("THE_GLACEON")
                 await self.three.join_chat("MILKY_WAY_45")
             except:
                 pass
@@ -140,9 +140,9 @@ class Userbot(Client):
         if config.STRING4:
             await self.four.start()
             try:
-                await self.four.join_chat("swaggerkarthik")
-                await self.four.join_chat("THE_MOON_NETWORK")
-                await self.four.join_chat("ll_RAM_NAGRI_ll")
+                await self.four.join_chat("MOON_SOCIETYY")
+                await self.four.join_chat("ABOUT_UR_MOON")
+                await self.four.join_chat("THE_GLACEON")
                 await self.four.join_chat("MILKY_WAY_45")
             except:
                 pass
@@ -163,9 +163,9 @@ class Userbot(Client):
         if config.STRING5:
             await self.five.start()
             try:
-                await self.five.join_chat("swaggerkarthik")
-                await self.five.join_chat("THE_MOON_NETWORK")
-                await self.five.join_chat("ll_RAM_NAGRI_ll")
+                await self.five.join_chat("MOON_SOCIETYY")
+                await self.five.join_chat("ABOUT_UR_MOON")
+                await self.five.join_chat("THE_GLACEON")
                 await self.five.join_chat("MILKY_WAY_45")
             except:
                 pass
