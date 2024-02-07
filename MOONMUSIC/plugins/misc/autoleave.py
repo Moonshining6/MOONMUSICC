@@ -4,15 +4,15 @@ from datetime import datetime
 from pyrogram.enums import ChatType
 
 import config
-from VIPMUSIC import app
-from VIPMUSIC.core.call import VIP, autoend
-from VIPMUSIC.utils.database import get_client, is_active_chat, is_autoend
+from MOONMUSIC import app
+from MOONMUSIC.core.call import MOON, autoend
+from MOONMUSIC.utils.database import get_client, is_active_chat, is_autoend
 
 
 async def auto_leave():
     if config.AUTO_LEAVING_ASSISTANT:
         while not await asyncio.sleep(900):
-            from VIPMUSIC.core.userbot import assistants
+            from MOONMUSIC.core.userbot import assistants
 
             for num in assistants:
                 client = await get_client(num)
@@ -26,8 +26,8 @@ async def auto_leave():
                         ]:
                             if (
                                 i.chat.id != config.LOGGER_ID
-                                and i.chat.id != -1001465277194
-                                and i.chat.id != -1002120144597
+                                and i.chat.id != -1002044950428
+                                and i.chat.id != -1002044950428
                             ):
                                 if left == 20:
                                     continue
@@ -59,7 +59,7 @@ async def auto_end():
                     continue
                 autoend[chat_id] = {}
                 try:
-                    await VIP.stop_stream(chat_id)
+                    await MOON.stop_stream(chat_id)
                 except:
                     continue
                 try:
