@@ -2,14 +2,14 @@ from pyrogram import filters
 from pyrogram.types import InlineKeyboardMarkup, Message
 
 import config
-from VIPMUSIC import YouTube, app
-from VIPMUSIC.core.call import VIP
-from VIPMUSIC.misc import db
-from VIPMUSIC.utils.database import get_loop
-from VIPMUSIC.utils.decorators import AdminRightsCheck
-from VIPMUSIC.utils.inline import close_markup, stream_markup
-from VIPMUSIC.utils.stream.autoclear import auto_clean
-from VIPMUSIC.utils.thumbnails import get_thumb
+from MOONMUSIC import YouTube, app
+from MOONMUSIC.core.call import VIP
+from MOONMUSIC.misc import db
+from MOONMUSIC.utils.database import get_loop
+from MOONMUSIC.utils.decorators import AdminRightsCheck
+from MOONMUSIC.utils.inline import close_markup, stream_markup
+from MOONMUSIC.utils.stream.autoclear import auto_clean
+from MOONMUSIC.utils.thumbnails import get_thumb
 from config import BANNED_USERS
 
 
@@ -48,7 +48,7 @@ async def skip(cli, message: Message, _, chat_id):
                                         ),
                                         reply_markup=close_markup(_),
                                     )
-                                    await VIP.stop_stream(chat_id)
+                                    await MOON.stop_stream(chat_id)
                                 except:
                                     return
                                 break
@@ -75,7 +75,7 @@ async def skip(cli, message: Message, _, chat_id):
                     reply_markup=close_markup(_),
                 )
                 try:
-                    return await VIP.stop_stream(chat_id)
+                    return await MOON.stop_stream(chat_id)
                 except:
                     return
         except:
@@ -86,7 +86,7 @@ async def skip(cli, message: Message, _, chat_id):
                     ),
                     reply_markup=close_markup(_),
                 )
-                return await VIP.stop_stream(chat_id)
+                return await MOON.stop_stream(chat_id)
             except:
                 return
     queued = check[0]["file"]
@@ -111,7 +111,7 @@ async def skip(cli, message: Message, _, chat_id):
         except:
             image = None
         try:
-            await VIP.skip_stream(chat_id, link, video=status, image=image)
+            await MOON.skip_stream(chat_id, link, video=status, image=image)
         except:
             return await message.reply_text(_["call_6"])
         button = stream_markup(_, chat_id)
@@ -144,7 +144,7 @@ async def skip(cli, message: Message, _, chat_id):
         except:
             image = None
         try:
-            await VIP.skip_stream(chat_id, file_path, video=status, image=image)
+            await MOON.skip_stream(chat_id, file_path, video=status, image=image)
         except:
             return await mystic.edit_text(_["call_6"])
         button = stream_markup(_, chat_id)
@@ -164,7 +164,7 @@ async def skip(cli, message: Message, _, chat_id):
         await mystic.delete()
     elif "index_" in queued:
         try:
-            await VIP.skip_stream(chat_id, videoid, video=status)
+            await MOON.skip_stream(chat_id, videoid, video=status)
         except:
             return await message.reply_text(_["call_6"])
         button = stream_markup(_, chat_id)
@@ -186,7 +186,7 @@ async def skip(cli, message: Message, _, chat_id):
             except:
                 image = None
         try:
-            await VIP.skip_stream(chat_id, queued, video=status, image=image)
+            await MOON.skip_stream(chat_id, queued, video=status, image=image)
         except:
             return await message.reply_text(_["call_6"])
         if videoid == "telegram":
