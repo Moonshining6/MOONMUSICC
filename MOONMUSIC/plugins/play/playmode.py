@@ -1,10 +1,10 @@
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardMarkup, Message
 
-from VIPMUSIC import app
-from VIPMUSIC.utils.database import get_playmode, get_playtype, is_nonadmin_chat
-from VIPMUSIC.utils.decorators import language
-from VIPMUSIC.utils.inline.settings import playmode_users_markup
+from MOONMUSIC import app
+from MOONMUSIC.utils.database import get_playmode, get_playtype, is_nonadmin_chat
+from MOONMUSIC.utils.decorators import language
+from MOONMUSIC.utils.inline.settings import playmode_users_markup
 from config import BANNED_USERS
 
 
