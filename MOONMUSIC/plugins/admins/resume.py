@@ -1,11 +1,11 @@
 from pyrogram import filters
 from pyrogram.types import Message
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
-from VIPMUSIC import app
-from VIPMUSIC.core.call import VIP
-from VIPMUSIC.utils.database import is_music_playing, music_on
-from VIPMUSIC.utils.decorators import AdminRightsCheck
-from VIPMUSIC.utils.inline import close_markup
+from MOONMUSIC import app
+from MOONMUSIC.core.call import VIP
+from MOONMUSIC.utils.database import is_music_playing, music_on
+from MOONMUSIC.utils.decorators import AdminRightsCheck
+from MOONMUSIC.utils.inline import close_markup
 from config import BANNED_USERS
 
 
