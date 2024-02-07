@@ -6,7 +6,7 @@ import os
 import re
 import asyncio
 import time
-from VIPMUSIC import app
+from MOONMUSIC import app
 
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 
@@ -64,9 +64,9 @@ async def help(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "✨𝚂𝚄𝙿𝙿𝙾𝚁𝚃✨", url=f"https://t.me/ll_RAM_NAGRI_ll"),
+                        "💘𝚂𝚄𝙿𝙿𝙾𝚁𝚃💘", url=f"https://t.me/MILKY_WAY_45"),
                     InlineKeyboardButton(
-                        "✨𝙾𝙵𝙵𝙸𝙲𝙴✨", url=f"https://t.me/MILKY_WAY_45")
+                        "💘𝙾𝙵𝙵𝙸𝙲𝙴💘", url=f"https://t.me/MOON_SOCIETYY")
                     
                 ]
             ]
@@ -84,9 +84,9 @@ async def help(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "✨𝚂𝚄𝙿𝙿𝙾𝚁𝚃✨", url=f"https://t.me/ll_RAM_NAGRI_ll"),
+                        "💘𝚂𝚄𝙿𝙿𝙾𝚁𝚃💘", url=f"https://t.me/MILKY_WAY_45"),
                     InlineKeyboardButton(
-                        "✨𝙾𝙵𝙵𝙸𝙲𝙴✨", url=f"https://t.me/MILKY_WAY_45")
+                        "💘𝙾𝙵𝙵𝙸𝙲𝙴💘", url=f"https://t.me/MOON_SOCIETYY")
                     
                 ]
             ]
