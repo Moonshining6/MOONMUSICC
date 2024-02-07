@@ -6,22 +6,22 @@ from pyrogram.types import InlineKeyboardMarkup, InputMediaPhoto, Message
 from pytgcalls.exceptions import NoActiveGroupCall
 
 import config
-from VIPMUSIC import Apple, Resso, SoundCloud, Spotify, Telegram, YouTube, app
-from VIPMUSIC.core.call import VIP
-from VIPMUSIC.utils import seconds_to_min, time_to_seconds
-from VIPMUSIC.utils.channelplay import get_channeplayCB
-from VIPMUSIC.utils.decorators.language import languageCB
-from VIPMUSIC.utils.decorators.play import PlayWrapper
-from VIPMUSIC.utils.formatters import formats
-from VIPMUSIC.utils.inline import (
+from MOONMUSIC import Apple, Resso, SoundCloud, Spotify, Telegram, YouTube, app
+from MOONMUSIC.core.call import VIP
+from MOONMUSIC.utils import seconds_to_min, time_to_seconds
+from MOONMUSIC.utils.channelplay import get_channeplayCB
+from MOONMUSIC.utils.decorators.language import languageCB
+from MOONMUSIC.utils.decorators.play import PlayWrapper
+from MOONMUSIC.utils.formatters import formats
+from MOONMUSIC.utils.inline import (
     botplaylist_markup,
     livestream_markup,
     playlist_markup,
     slider_markup,
     track_markup,
 )
-from VIPMUSIC.utils.logger import play_logs
-from VIPMUSIC.utils.stream.stream import stream
+from MOONMUSIC.utils.logger import play_logs
+from MOONMUSIC.utils.stream.stream import stream
 from config import BANNED_USERS, lyrical
 
 
@@ -281,7 +281,7 @@ async def play_commnd(
             return await mystic.delete()
         else:
             try:
-                await VIP.stream_call(url)
+                await MOON.stream_call(url)
             except NoActiveGroupCall:
                 await mystic.edit_text(_["black_9"])
                 return await app.send_message(
@@ -494,7 +494,7 @@ async def play_music(client, CallbackQuery, _):
     return await mystic.delete()
 
 
-@app.on_callback_query(filters.regex("VIPmousAdmin") & ~BANNED_USERS)
+@app.on_callback_query(filters.regex("MOONmousAdmin") & ~BANNED_USERS)
 async def VIPmous_check(client, CallbackQuery):
     try:
         await CallbackQuery.answer(
