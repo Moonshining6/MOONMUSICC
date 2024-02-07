@@ -2,7 +2,7 @@ import asyncio, os, time, aiohttp
 from pathlib import Path
 from PIL import Image, ImageDraw, ImageFont
 from asyncio import sleep
-from VIPMUSIC import app
+from MOONMUSIC import app
 from pyrogram import filters, Client, enums
 from pyrogram.enums import ParseMode
 from pyrogram.types import *
@@ -10,11 +10,11 @@ from typing import Union, Optional
 import random
 
 random_photo = [
-    "https://telegra.ph/file/adce6a621c1db2077df02.jpg",
-    "https://telegra.ph/file/adce6a621c1db2077df02.jpg",
-    "https://telegra.ph/file/adce6a621c1db2077df02.jpg",
-    "https://telegra.ph/file/adce6a621c1db2077df02.jpg",
-    "https://telegra.ph/file/adce6a621c1db2077df02.jpg",
+    "https://telegra.ph/file/aa015718299510040d41f.jpg",
+    "https://telegra.ph/file/aa015718299510040d41f.jpg",
+    "https://telegra.ph/file/aa015718299510040d41f.jpg",
+    "https://telegra.ph/file/aa015718299510040d41f.jpg",
+    "https://telegra.ph/file/aa015718299510040d41f.jpg",
 ]
 
 # --------------------------------------------------------------------------------- #
@@ -66,8 +66,8 @@ async def get_userinfo_img(
 
 # --------------------------------------------------------------------------------- #
 
-bg_path = "VIPMUSIC/assets/userinfo.png"
-font_path = "VIPMUSIC/assets/hiroko.ttf"
+bg_path = "MOONMUSIC/assets/userinfo.png"
+font_path = "MOONMUSIC/assets/hiroko.ttf"
 
 # --------------------------------------------------------------------------------- #
 
