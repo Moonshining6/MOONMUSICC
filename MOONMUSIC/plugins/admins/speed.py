@@ -1,13 +1,13 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from VIPMUSIC import app
-from VIPMUSIC.core.call import VIP
-from VIPMUSIC.misc import SUDOERS, db
-from VIPMUSIC.utils import AdminRightsCheck
-from VIPMUSIC.utils.database import is_active_chat, is_nonadmin_chat
-from VIPMUSIC.utils.decorators.language import languageCB
-from VIPMUSIC.utils.inline import close_markup, speed_markup
+from MOONMUSIC import app
+from MOONMUSIC.core.call import VIP
+from MOONMUSIC.misc import SUDOERS, db
+from MOONMUSIC.utils import AdminRightsCheck
+from MOONMUSIC.utils.database import is_active_chat, is_nonadmin_chat
+from MOONMUSIC.utils.decorators.language import languageCB
+from MOONMUSIC.utils.inline import close_markup, speed_markup
 from config import BANNED_USERS, adminlist
 
 checker = []
@@ -94,7 +94,7 @@ async def del_back_playlist(client, CallbackQuery, _):
         text=_["admin_32"].format(CallbackQuery.from_user.mention),
     )
     try:
-        await VIP.speedup_stream(
+        await MOON.speedup_stream(
             chat_id,
             file_path,
             speed,
