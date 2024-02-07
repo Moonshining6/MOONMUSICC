@@ -1,10 +1,10 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from VIPMUSIC import app
-from VIPMUSIC.misc import SUDOERS
-from VIPMUSIC.utils.database import blacklist_chat, blacklisted_chats, whitelist_chat
-from VIPMUSIC.utils.decorators.language import language
+from MOONMUSIC import app
+from MOONMUSIC.misc import SUDOERS
+from MOONMUSIC.utils.database import blacklist_chat, blacklisted_chats, whitelist_chat
+from MOONMUSIC.utils.decorators.language import language
 from config import BANNED_USERS
 
 
