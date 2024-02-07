@@ -1,10 +1,10 @@
-from VIPMUSIC.utils.vip_ban import admin_filter
+from MOONMUSIC.utils.vip_ban import admin_filter
 import os
 import csv
 from pyrogram import Client, filters
-from VIPMUSIC import app
-from VIPMUSIC.misc import SUDOERS
-from VIPMUSIC.utils.database import (
+from MOONMUSIC import app
+from MOONMUSIC.misc import SUDOERS
+from MOONMUSIC.utils.database import (
     get_active_chats,
     get_authuser_names,
     get_client,
