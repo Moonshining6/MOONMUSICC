@@ -1,9 +1,9 @@
 from pyrogram import filters
 
-from VIPMUSIC import app
-from VIPMUSIC.misc import SUDOERS
-from VIPMUSIC.utils.database import add_off, add_on
-from VIPMUSIC.utils.decorators.language import language
+from MOONMUSIC import app
+from MOONMUSIC.misc import SUDOERS
+from MOONMUSIC.utils.database import add_off, add_on
+from MOONMUSIC.utils.decorators.language import language
 
 
 @app.on_message(filters.command(["logger"]) & SUDOERS)
