@@ -1,12 +1,12 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from VIPMUSIC import app
-from VIPMUSIC.misc import SUDOERS
-from VIPMUSIC.utils.database import add_sudo, remove_sudo
-from VIPMUSIC.utils.decorators.language import language
-from VIPMUSIC.utils.extraction import extract_user
-from VIPMUSIC.utils.inline import close_markup
+from MOONMUSIC import app
+from MOONMUSIC.misc import SUDOERS
+from MOONMUSIC.utils.database import add_sudo, remove_sudo
+from MOONMUSIC.utils.decorators.language import language
+from MOONMUSIC.utils.extraction import extract_user
+from MOONMUSIC.utils.inline import close_markup
 from config import BANNED_USERS, OWNER_ID
 
 
