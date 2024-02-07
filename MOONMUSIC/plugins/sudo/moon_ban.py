@@ -11,7 +11,7 @@ from MOONMUSIC.utils.moon_ban import admin_filter
 
 
 
-vip_text = [
+moon_text = [
 "hey please don't disturb me.",
 "who are you",    
 "aap kon ho",
