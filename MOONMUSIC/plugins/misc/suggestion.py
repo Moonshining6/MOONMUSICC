@@ -6,8 +6,8 @@ from datetime import datetime, timedelta
 import config
 from config import clean
 from strings import get_string
-from VIPMUSIC import app
-from VIPMUSIC.utils.database import (get_lang,
+from MOONMUSIC import app
+from MOONMUSIC.utils.database import (get_lang,
                                        get_served_chats,
                                        is_suggestion)
 
