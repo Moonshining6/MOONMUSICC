@@ -1,10 +1,10 @@
 import requests
 import random
-from VIPMUSIC import app, userbot
-from VIPMUSIC.misc import SUDOERS
+from MOONMUSIC import app, userbot
+from MOONMUSIC.misc import SUDOERS
 from pyrogram import * 
 from pyrogram.types import *
-from VIPMUSIC.utils.vip_ban import admin_filter
+from MOONMUSIC.utils.moon_ban import admin_filter
 
 
 
