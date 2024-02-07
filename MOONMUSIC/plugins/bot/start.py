@@ -6,10 +6,10 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 from youtubesearchpython.__future__ import VideosSearch
 
 import config
-from VIPMUSIC import app
-from VIPMUSIC.misc import _boot_
-from VIPMUSIC.plugins.sudo.sudoers import sudoers_list
-from VIPMUSIC.utils.database import (
+from MOONMUSIC import app
+from MOONMUSIC.misc import _boot_
+from MOONMUSIC.plugins.sudo.sudoers import sudoers_list
+from MOONMUSIC.utils.database import (
     add_served_chat,
     add_served_user,
     blacklisted_chats,
@@ -17,20 +17,20 @@ from VIPMUSIC.utils.database import (
     is_banned_user,
     is_on_off,
 )
-from VIPMUSIC.utils.decorators.language import LanguageStart
-from VIPMUSIC.utils.formatters import get_readable_time
-from VIPMUSIC.utils.inline import first_page, private_panel, start_panel
+from MOONMUSIC.utils.decorators.language import LanguageStart
+from MOONMUSIC.utils.formatters import get_readable_time
+from MOONMUSIC.utils.inline import first_page, private_panel, start_panel
 from config import BANNED_USERS
 from strings import get_string
 
 
 
 YUMI_PICS = [
-"https://telegra.ph/file/adce6a621c1db2077df02.jpg",
-"https://telegra.ph/file/adce6a621c1db2077df02.jpg",
-"https://telegra.ph/file/adce6a621c1db2077df02.jpg",
-"https://telegra.ph/file/adce6a621c1db2077df02.jpg",
-"https://telegra.ph/file/adce6a621c1db2077df02.jpg"
+"https://telegra.ph/file/aa015718299510040d41f.jpg",
+"https://telegra.ph/file/aa015718299510040d41f.jpg",
+"https://telegra.ph/file/aa015718299510040d41f.jpg",
+"https://telegra.ph/file/aa015718299510040d41f.jpg",
+"https://telegra.ph/file/aa015718299510040d41f.jpg"
 
 ]
 
