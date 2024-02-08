@@ -2,9 +2,9 @@ import math
 
 from pyrogram.types import InlineKeyboardButton
 
-from VIPMUSIC.utils.formatters import time_to_seconds
+from MOONMUSIC.utils.formatters import time_to_seconds
 
-from VIPMUSIC import app
+from MOONMUSIC import app
 
 def track_markup(_, videoid, user_id, channel, fplay):
     buttons = [
@@ -31,8 +31,8 @@ def track_markup(_, videoid, user_id, channel, fplay):
         ],
         [
             InlineKeyboardButton(
-                text=f"⛦ ᴊᴏɪɴ ⛦",
-              url="https://t.me/vip_creators",
+                text=f"💘 𝐉𝐎𝐈𝐍 💘",
+              url="https://t.me/MOON_SOCIETYY",
             ),
         ],
     ]
@@ -92,8 +92,8 @@ def stream_markup_timer(_, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text=f"⛦ ᴊᴏɪɴ ⛦",
-              url="https://t.me/vip_creators",
+                text=f"💘 𝐉𝐎𝐈𝐍 💘",
+              url="https://t.me/MOON_SOCIETYY",
             ),
         ],
     ]
@@ -128,8 +128,8 @@ def stream_markup(_, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text=f"⛦ ᴊᴏɪɴ ⛦",
-              url="https://t.me/vip_creators",
+                text=f"💘 𝐉𝐎𝐈𝐍 💘",
+              url="https://t.me/MOON_SOCIETYY",
             ),
         ],
     ]
@@ -142,11 +142,11 @@ def playlist_markup(_, videoid, user_id, ptype, channel, fplay):
         [
             InlineKeyboardButton(
                 text=_["P_B_1"],
-                callback_data=f"VIPPlaylists {videoid}|{user_id}|{ptype}|a|{channel}|{fplay}",
+                callback_data=f"MOONPlaylists {videoid}|{user_id}|{ptype}|a|{channel}|{fplay}",
             ),
             InlineKeyboardButton(
                 text=_["P_B_2"],
-                callback_data=f"VIPPlaylists {videoid}|{user_id}|{ptype}|v|{channel}|{fplay}",
+                callback_data=f"MOONPlaylists {videoid}|{user_id}|{ptype}|v|{channel}|{fplay}",
             ),
         ],
         [
@@ -257,8 +257,8 @@ def queue_markup(_, videoid, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text=f"⛦ ᴊᴏɪɴ ⛦",
-              url="https://t.me/vip_creators",
+                text=f"💘 𝐉𝐎𝐈𝐍 💘",
+              url="https://t.me/MOON_SOCIETYY",
             ),
         ],
     ]
