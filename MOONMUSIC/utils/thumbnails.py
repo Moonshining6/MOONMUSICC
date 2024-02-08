@@ -11,7 +11,7 @@ from PIL import ImageFilter, ImageFont, ImageOps
 from unidecode import unidecode
 from youtubesearchpython.__future__ import VideosSearch
 
-from VIPMUSIC import app
+from MOONMUSIC import app
 from config import YOUTUBE_IMG_URL
 
 
@@ -84,8 +84,8 @@ async def get_thumb(videoid):
         #enhancer = ImageEnhance.Brightness(background)
         #background = enhancer.enhance(0.9)
         #draw = ImageDraw.Draw(background)
-        #arial = ImageFont.truetype("VIPMUSIC/assets/font2.ttf", 30)
-        #font = ImageFont.truetype("VIPMUSIC/assets/font.ttf", 30)
+        #arial = ImageFont.truetype("MOONMUSIC/assets/font2.ttf", 30)
+        #font = ImageFont.truetype("MOONMUSIC/assets/font.ttf", 30)
         # draw.text((1110, 8), unidecode(app.name), fill="white", font=arial)
         """
         draw.text(
