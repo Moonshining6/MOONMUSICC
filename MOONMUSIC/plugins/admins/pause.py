@@ -1,7 +1,7 @@
 from pyrogram import filters
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 from MOONMUSIC import app
-from MOONMUSIC.core.call import VIP
+from MOONMUSIC.core.call import MOON
 from MOONMUSIC.utils.database import is_music_playing, music_off
 from MOONMUSIC.utils.decorators import AdminRightsCheck
 from MOONMUSIC.utils.inline import close_markup
