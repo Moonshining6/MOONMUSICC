@@ -1,12 +1,12 @@
 import aiohttp
 from pyrogram import filters
-from VIPMUSIC import app
+from MOONMUSIC import app
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
 @app.on_message(filters.command(["github", "git"]))
 async def github(_, message):
     if len(message.command) != 2:
-        await message.reply_text("/git VIP-BOY-OP")
+        await message.reply_text("/git Moonshining6")
         return
 
     username = message.text.split(None, 1)[1]
