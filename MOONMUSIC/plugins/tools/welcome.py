@@ -1,4 +1,4 @@
-from VIPMUSIC import app
+from MOONMUSIC import app
 from pyrogram import filters
 from pyrogram.errors import RPCError
 from pyrogram.types import ChatMemberUpdated, InlineKeyboardMarkup, InlineKeyboardButton
@@ -19,15 +19,15 @@ from pyrogram.enums import ParseMode
 from pyrogram import *
 from pyrogram.types import *
 from logging import getLogger
-from VIPMUSIC.utils.vip_ban import admin_filter
+from MOONMUSIC.utils.moon_ban import admin_filter
 
 
 random_photo = [
-    "https://telegra.ph/file/adce6a621c1db2077df02.jpg",
-    "https://telegra.ph/file/adce6a621c1db2077df02.jpg",
-    "https://telegra.ph/file/adce6a621c1db2077df02.jpg",
-    "https://telegra.ph/file/adce6a621c1db2077df02.jpg",
-    "https://telegra.ph/file/adce6a621c1db2077df02.jpg",
+    "https://telegra.ph/file/aa015718299510040d41f.jpg",
+    "https://telegra.ph/file/aa015718299510040d41f.jpg",
+    "https://telegra.ph/file/aa015718299510040d41f.jpg",
+    "https://telegra.ph/file/aa015718299510040d41f.jpg",
+    "https://telegra.ph/file/aa015718299510040d41f.jpg",
 ]
 # --------------------------------------------------------------------------------- #
 
@@ -74,8 +74,8 @@ async def get_userinfo_img(
 
 # --------------------------------------------------------------------------------- #
 
-bg_path = "VIPMUSIC/assets/userinfo.png"
-font_path = "VIPMUSIC/assets/hiroko.ttf"
+bg_path = "MOONMUSIC/assets/userinfo.png"
+font_path = "MOONMUSIC/assets/hiroko.ttf"
 
 # --------------------------------------------------------------------------------- #
 
@@ -103,7 +103,7 @@ async def handle_member_update(client: app, member: ChatMemberUpdated):
 
             # Welcome message for new members
             caption = (
-            f"**🌷𝐇ᴇʏ {member.new_chat_member.user.mention}**\n\n**🏘𝐖ᴇʟᴄᴏᴍᴇ 𝐈ɴ 𝐍ᴇᴡ 𝐆ʀᴏᴜᴘ🥳**\n\n"
+            f"**🌷𝐇𝐄𝐘 {member.new_chat_member.user.mention}**\n\n**🏘𝐖𝐄𝐋𝐂𝐎𝐌𝐄 𝐈𝐍 𝐍𝐄𝐖 𝐆𝐑𝐎𝐔𝐏 💘**\n\n"
             f"**📝** {chat.title}\n"
             f"**🔐ʟɪɴᴋ » @{chat.username}**\n➖➖➖➖➖➖➖➖➖➖➖\n"
             f"**๏ ᴍᴇᴍʙᴇʀ ɪᴅ »** `{member.new_chat_member.user.id}`\n"
