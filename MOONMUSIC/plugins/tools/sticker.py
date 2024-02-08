@@ -2,7 +2,7 @@ import base64
 import httpx
 import os
 from pyrogram import filters
-from VIPMUSIC import app
+from MOONMUSIC import app
 from pyrogram import filters
 import pyrogram
 from uuid import uuid4
@@ -13,7 +13,7 @@ from pyrogram.types import InlineKeyboardButton,InlineKeyboardMarkup
 async def upscale_image(client, message):
     try:
         if not message.reply_to_message or not message.reply_to_message.photo:
-            await message.reply_text("**ᴘʟᴇᴀsᴇ ʀᴇᴘʟʏ ᴛᴏ ᴀɴ ɪᴍᴀɢᴇ ᴛᴏ ᴜᴘsᴄᴀʟᴇ ɪᴛ.**")
+            await message.reply_text("**ᴘʟᴇᴀ𝐬ᴇ ʀᴇᴘʟʏ ᴛᴏ ᴀɴ ɪᴍᴀɢᴇ ᴛᴏ ᴜᴘ𝐬ᴄᴀʟᴇ ɪᴛ.**")
             return
 
         image = message.reply_to_message.photo.file_id
