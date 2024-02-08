@@ -2,7 +2,7 @@ from pyrogram import filters
 from pyrogram.types import Message
 
 from MOONMUSIC import YouTube, app
-from MOONMUSIC.core.call import VIP
+from MOONMUSIC.core.call import MOON
 from MOONMUSIC.misc import db
 from MOONMUSIC.utils import AdminRightsCheck, seconds_to_min
 from MOONMUSIC.utils.inline import close_markup
@@ -56,7 +56,7 @@ async def seek_comm(cli, message: Message, _, chat_id):
     if "index_" in file_path:
         file_path = playing[0]["vidid"]
     try:
-        await VIP.seek_stream(
+        await MOON.seek_stream(
             chat_id,
             file_path,
             seconds_to_min(to_seek),
