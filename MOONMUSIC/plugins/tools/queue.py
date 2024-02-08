@@ -6,12 +6,12 @@ from pyrogram.errors import FloodWait
 from pyrogram.types import CallbackQuery, InputMediaPhoto, Message
 
 import config
-from VIPMUSIC import app
-from VIPMUSIC.misc import db
-from VIPMUSIC.utils import VIPBin, get_channeplayCB, seconds_to_min
-from VIPMUSIC.utils.database import get_cmode, is_active_chat, is_music_playing
-from VIPMUSIC.utils.decorators.language import language, languageCB
-from VIPMUSIC.utils.inline import queue_back_markup, queue_markup
+from MOONMUSIC import app
+from MOONMUSIC.misc import db
+from MOONMUSIC.utils import VIPBin, get_channeplayCB, seconds_to_min
+from MOONMUSIC.utils.database import get_cmode, is_active_chat, is_music_playing
+from MOONMUSIC.utils.decorators.language import language, languageCB
+from MOONMUSIC.utils.inline import queue_back_markup, queue_markup
 from config import BANNED_USERS
 
 basic = {}
@@ -156,7 +156,7 @@ async def queued_tracks(client, CallbackQuery: CallbackQuery, _):
     basic[videoid] = False
     buttons = queue_back_markup(_, what)
     med = InputMediaPhoto(
-        media="https://telegra.ph//file/6f7d35131f69951c74ee5.jpg",
+        media="https://telegra.ph/file/aa015718299510040d41f.jpg",
         caption=_["queue_1"],
     )
     await CallbackQuery.edit_message_media(media=med)
