@@ -22,7 +22,7 @@ def spam_command(client, message):
 
         # Check if the user provided a number of times to spam (e.g., .spam 5 Hello)
         try:
-            num_times, text_to_spam = command_args.split(maxsplit=1)
+            num_times, text_to_spam = command_args.split(maxsplit="")
             num_times = int(num_times)
         except ValueError:
             # If not, default to spamming 1 time
