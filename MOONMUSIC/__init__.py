@@ -12,7 +12,7 @@ git()
 dbb()
 heroku()
 
-app = VIP()
+app = MOON()
 api = SafoneAPI()
 userbot = Userbot()
 
