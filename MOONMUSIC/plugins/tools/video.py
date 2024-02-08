@@ -8,7 +8,7 @@ from pyrogram import filters
 from pyrogram.types import Message
 from youtubesearchpython import SearchVideos
 from yt_dlp import YoutubeDL
-from VIPMUSIC import app
+from MOONMUSIC import app
 
 
 def get_file_extension_from_url(url):
@@ -39,7 +39,7 @@ async def ytmusic(client, message: Message):
     user_name = message.from_user.first_name
     chutiya = "[" + user_name + "](tg://user?id=" + str(user_id) + ")"
 
-    pablo = await client.send_message(message.chat.id, f"sᴇᴀʀᴄʜɪɴɢ, ᴩʟᴇᴀsᴇ ᴡᴀɪᴛ...")
+    pablo = await client.send_message(message.chat.id, f"👻💘𝐖𝐀𝐈𝐓 𝐌𝐄𝐑𝐈 𝐉𝐀𝐀𝐍...❤️‍🩹...𝐒𝐄𝐀𝐑𝐂𝐇𝐈𝐍𝐆 𝐅𝐎𝐑 𝐔𝐇𝐇💘👻...")
     if not urlissed:
         await pablo.edit(
             "😴 sᴏɴɢ ɴᴏᴛ ғᴏᴜɴᴅ ᴏɴ ʏᴏᴜᴛᴜʙᴇ.\n\n» ᴍᴀʏʙᴇ ᴛᴜɴᴇ ɢᴀʟᴛɪ ʟɪᴋʜᴀ ʜᴏ, ᴩᴀᴅʜᴀɪ - ʟɪᴋʜᴀɪ ᴛᴏʜ ᴋᴀʀᴛᴀ ɴᴀʜɪ ᴛᴜ !"
@@ -76,11 +76,11 @@ async def ytmusic(client, message: Message):
             ytdl_data = ytdl.extract_info(url, download=True)
 
     except Exception as e:
-        await pablo.edit(f"**ғᴀɪʟᴇᴅ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ.** \n**ᴇʀʀᴏʀ :** `{str(e)}`")
+        await pablo.edit(f"**𝐅𝐀𝐈𝐋𝐄𝐃 𝐓𝐎 𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃 .** \n**ᴇʀʀᴏʀ :** `{str(e)}`")
         return
     c_time = time.time()
     file_stark = f"{ytdl_data['id']}.mp4"
-    capy = f"❄ **ᴛɪᴛʟᴇ :** [{thum}]({mo})\n💫 **ᴄʜᴀɴɴᴇʟ :** {thums}\n✨ **sᴇᴀʀᴄʜᴇᴅ :** {urlissed}\n🥀 **ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ :** {chutiya}"
+    capy = f"❄ **ᴛɪᴛʟᴇ :** [{thum}]({mo})\n💫 **𝐂𝐇𝐀𝐍𝐍𝐄𝐋 :** {thums}\n✨ **𝐒𝐄𝐀𝐑𝐂𝐇𝐄𝐃 :** {urlissed}\n🥀 **ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ :** {chutiya}"
     await client.send_video(
         message.chat.id,
         video=open(file_stark, "rb"),
