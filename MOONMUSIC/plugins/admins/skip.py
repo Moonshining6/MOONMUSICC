@@ -3,7 +3,7 @@ from pyrogram.types import InlineKeyboardMarkup, Message
 
 import config
 from MOONMUSIC import YouTube, app
-from MOONMUSIC.core.call import VIP
+from MOONMUSIC.core.call import MOON
 from MOONMUSIC.misc import db
 from MOONMUSIC.utils.database import get_loop
 from MOONMUSIC.utils.decorators import AdminRightsCheck
