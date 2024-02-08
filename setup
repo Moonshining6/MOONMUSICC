@@ -82,7 +82,7 @@ installation(){
 }
 
 clear
-pprint "Welcome to VIP MUSIC Setup Installer\n\n"
+pprint "Welcome to MOON MUSIC Setup Installer\n\n"
 pprint "If you see any error during Installation Process, Please refer to these files for logs: "
 pprint "\nFor node js errors , Checkout nodelog.txt"
 pprint "\nFor pypi packages errors , Checkout pypilog.txt"
@@ -126,5 +126,5 @@ AUTO_GCAST = $auto_gcast
 OWNER_ID = $ownid""" > .env
 clear
 
-pprint "\n\n\nThanks for using VIPMUSIC installer, your vars have been saved successfully ! \nIf you wanna add more variables add them in your env by : vi .env"
+pprint "\n\n\nThanks for using MOONMUSIC installer, your vars have been saved successfully ! \nIf you wanna add more variables add them in your env by : vi .env"
 pprint "\n\nNow you can start the bot by : bash start\n\n"
