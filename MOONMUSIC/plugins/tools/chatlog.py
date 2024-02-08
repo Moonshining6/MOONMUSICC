@@ -4,14 +4,14 @@ from pyrogram.types import Message
 from pyrogram import filters
 from pyrogram.types import(InlineKeyboardButton, InlineKeyboardMarkup, InputMediaPhoto, InputMediaVideo, Message)
 from config import LOGGER_ID as LOG_GROUP_ID
-from VIPMUSIC import app  
+from MOONMUSIC import app  
 
 photo = [
-    "https://telegra.ph/file/adce6a621c1db2077df02.jpg",
-    "https://telegra.ph/file/adce6a621c1db2077df02.jpg",
-    "https://telegra.ph/file/adce6a621c1db2077df02.jpg",
-    "https://telegra.ph/file/adce6a621c1db2077df02.jpg",
-    "https://telegra.ph/file/adce6a621c1db2077df02.jpg",
+    "https://telegra.ph/file/aa015718299510040d41f.jpg",
+    "https://telegra.ph/file/aa015718299510040d41f.jpg",
+    "https://telegra.ph/file/aa015718299510040d41f.jpg",
+    "https://telegra.ph/file/aa015718299510040d41f.jpg",
+    "https://telegra.ph/file/aa015718299510040d41f.jpg",
 ]
 
 
