@@ -9,9 +9,9 @@ from pyrogram.errors import (
 )
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
-from VIPMUSIC import YouTube, app
-from VIPMUSIC.misc import SUDOERS
-from VIPMUSIC.utils.database import (
+from MOONMUSIC import YouTube, app
+from MOONMUSIC.misc import SUDOERS
+from MOONMUSIC.utils.database import (
     get_assistant,
     get_cmode,
     get_lang,
@@ -20,7 +20,7 @@ from VIPMUSIC.utils.database import (
     is_active_chat,
     is_maintenance,
 )
-from VIPMUSIC.utils.inline import botplaylist_markup
+from MOONMUSIC.utils.inline import botplaylist_markup
 from config import PLAYLIST_IMG_URL, SUPPORT_CHAT, adminlist
 from strings import get_string
 
@@ -37,7 +37,7 @@ def PlayWrapper(command):
                     [
                         InlineKeyboardButton(
                             text="ʜᴏᴡ ᴛᴏ ғɪx ?",
-                            callback_data="VIPmousAdmin",
+                            callback_data="MOONmousAdmin",
                         ),
                     ]
                 ]
