@@ -2,7 +2,7 @@ from pyrogram import filters
 from pyrogram.types import Message
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 from MOONMUSIC import app
-from MOONMUSIC.core.call import VIP
+from MOONMUSIC.core.call import MOON
 from MOONMUSIC.utils.database import is_music_playing, music_on
 from MOONMUSIC.utils.decorators import AdminRightsCheck
 from MOONMUSIC.utils.inline import close_markup
@@ -15,7 +15,7 @@ async def resume_com(cli, message: Message, _, chat_id):
     if await is_music_playing(chat_id):
         return await message.reply_text(_["admin_3"])
     await music_on(chat_id)
-    await VIP.resume_stream(chat_id)
+    await MOON.resume_stream(chat_id)
     buttons_resume = [
         [
             
