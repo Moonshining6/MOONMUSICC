@@ -1,8 +1,8 @@
-from VIPMUSIC.core.bot import VIP
-from VIPMUSIC.core.dir import dirr
-from VIPMUSIC.core.git import git
-from VIPMUSIC.core.userbot import Userbot
-from VIPMUSIC.misc import dbb, heroku
+from MOONMUSIC.core.bot import MOON
+from MOONMUSIC.core.dir import dirr
+from MOONMUSIC.core.git import git
+from MOONMUSIC.core.userbot import Userbot
+from MOONMUSIC.misc import dbb, heroku
 
 from SafoneAPI import SafoneAPI
 from .logging import LOGGER
