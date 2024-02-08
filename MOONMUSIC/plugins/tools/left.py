@@ -19,7 +19,7 @@ from pyrogram.enums import ParseMode
 from pyrogram import *
 from pyrogram.types import *
 from logging import getLogger
-from MOONMUSIC.utils.vip_ban import admin_filter
+from MOONMUSIC.utils.MOON_ban import admin_filter
 
 random_photo = [
     "https://telegra.ph/file/aa015718299510040d41f.jpg",
