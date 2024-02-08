@@ -4,7 +4,7 @@ from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
 from MOONMUSIC import YouTube, app
-from MOONMUSIC.core.call import VIP
+from MOONMUSIC.core.call import MOON
 from MOONMUSIC.misc import SUDOERS, db
 from MOONMUSIC.utils.database import (
     get_active_chats,
