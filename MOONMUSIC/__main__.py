@@ -5,11 +5,11 @@ from pyrogram import idle
 from pytgcalls.exceptions import NoActiveGroupCall
 
 import config
-from VIPMUSIC import LOGGER, app, userbot
-from VIPMUSIC.core.call import VIP
-from VIPMUSIC.misc import sudo
-from VIPMUSIC.plugins import ALL_MODULES
-from VIPMUSIC.utils.database import get_banned_users, get_gbanned
+from MOONMUSIC import LOGGER, app, userbot
+from MOONMUSIC.core.call import MOON
+from MOONMUSIC.misc import sudo
+from MOONMUSIC.plugins import ALL_MODULES
+from MOONMUSIC.utils.database import get_banned_users, get_gbanned
 from config import BANNED_USERS
 
 
@@ -35,18 +35,18 @@ async def init():
         pass
     await app.start()
     for all_module in ALL_MODULES:
-        importlib.import_module("VIPMUSIC.plugins" + all_module)
-    LOGGER("VIPMUSIC.plugins").info("𝐀𝐥𝐥 𝐅𝐞𝐚𝐭𝐮𝐫𝐞𝐬 𝐋𝐨𝐚𝐝𝐞𝐝 𝐁𝐚𝐛𝐲🥳...")
+        importlib.import_module("MOONMUSIC.plugins" + all_module)
+    LOGGER("MOONMUSIC.plugins").info("𝐀𝐥𝐥 𝐅𝐞𝐚𝐭𝐮𝐫𝐞𝐬 𝐋𝐨𝐚𝐝𝐞𝐝 𝐁𝐚𝐛𝐲🥳...")
     await userbot.start()
-    await VIP.start()
-    await VIP.decorators()
-    LOGGER("VIPMUSIC").info(
-        "╔═════ஜ۩۞۩ஜ════╗\n  ♨️𝗠𝗔𝗗𝗘 𝗕𝗬 𝐒𝐖𝐀𝐆𝐆𝐄𝐑 ♨️\n╚═════ஜ۩۞۩ஜ════╝"
+    await MOON.start()
+    await MOON.decorators()
+    LOGGER("MOONMUSIC").info(
+        "╔═════ஜ۩۞۩ஜ════╗\n  ♨️𝗠𝗔𝗗𝗘 𝗕𝗬 𝐌𝐎𝐎𝐍 ♨️\n╚═════ஜ۩۞۩ஜ════╝"
     )
     await idle()
     await app.stop()
     await userbot.stop()
-    LOGGER("VIPMUSIC").info("╔═════ஜ۩۞۩ஜ════╗\n  ♨️𝗠𝗔𝗗𝗘 𝗕𝗬 𝐒𝐖𝐀𝐆𝐆𝐄𝐑 ♨️\n╚═════ஜ۩۞۩ஜ════╝")
+    LOGGER("MOONMUSIC").info("╔═════ஜ۩۞۩ஜ════╗\n  ♨️𝗠𝗔𝗗𝗘 𝗕𝗬 𝐌𝐎𝐎𝐍 ♨️\n╚═════ஜ۩۞۩ஜ════╝")
     
 
 if __name__ == "__main__":
