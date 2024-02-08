@@ -9,7 +9,7 @@ from urllib.parse import urlparse
 from youtube_search import YoutubeSearch
 from yt_dlp import YoutubeDL
 
-from VIPMUSIC import app
+from MOONMUSIC import app
 from pyrogram import filters
 from pyrogram import Client, filters
 from pyrogram.types import Message
@@ -25,7 +25,7 @@ from youtubesearchpython import SearchVideos
 def download_song(_, message):
     query = " ".join(message.command[1:])  
     print(query)
-    m = message.reply("**🔄 sᴇᴀʀᴄʜɪɴɢ... **")
+    m = message.reply("**🔄 👻💗𝐖𝐀𝐈𝐓 𝐌𝐄𝐑𝐈 𝐉𝐀𝐀𝐍...💘...𝐏𝐋𝐀𝐘𝐈𝐍𝐆 𝐅𝐎𝐑 𝐔𝐇𝐇 😘👻... **")
     ydl_ops = {"format": "bestaudio[ext=m4a]"}
     try:
         results = YoutubeSearch(query, max_results=1).to_dict()
@@ -42,10 +42,10 @@ def download_song(_, message):
         channel_name = results[0]["channel"]
 
     except Exception as e:
-        m.edit("**⚠️ ɴᴏ ʀᴇsᴜʟᴛs ᴡᴇʀᴇ ғᴏᴜɴᴅ. ᴍᴀᴋᴇ sᴜʀᴇ ʏᴏᴜ ᴛʏᴘᴇᴅ ᴛʜᴇ ᴄᴏʀʀᴇᴄᴛ sᴏɴɢ ɴᴀᴍᴇ**")
+        m.edit("**⚠️ ɴᴏ ʀᴇ𝐬ᴜʟᴛ𝐬 ᴡᴇʀᴇ ғᴏᴜɴᴅ. ᴍᴀᴋᴇ 𝐬ᴜʀᴇ ʏᴏᴜ ᴛʏᴘᴇᴅ ᴛʜᴇ ᴄᴏʀʀᴇᴄᴛ 𝐬ᴏɴɢ ɴᴀᴍᴇ**")
         print(str(e))
         return
-    m.edit("**📥 ᴅᴏᴡɴʟᴏᴀᴅɪɴɢ...**")
+    m.edit("**📥 👻💗𝐖𝐀𝐈𝐓 𝐌𝐄𝐑𝐈 𝐉𝐀𝐀𝐍...💘...𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃𝐈𝐍𝐆 𝐅𝐎𝐑 𝐔𝐇𝐇 😘👻...**")
     try:
         with yt_dlp.YoutubeDL(ydl_ops) as ydl:
             info_dict = ydl.extract_info(link, download=False)
@@ -55,7 +55,7 @@ def download_song(_, message):
         for i in range(len(dur_arr) - 1, -1, -1):
             dur += int(float(dur_arr[i])) * secmul
             secmul *= 60
-        m.edit("**📤 ᴜᴘʟᴏᴀᴅɪɴɢ...**")
+        m.edit("**📤👻💗𝐖𝐀𝐈𝐓 𝐌𝐄𝐑𝐈 𝐉𝐀𝐀𝐍...💘...𝐔𝐏𝐋𝐎𝐀𝐃𝐈𝐍𝐆 𝐅𝐎𝐑 𝐔𝐇𝐇 😘👻...**")
 
         message.reply_audio(
             audio_file,
