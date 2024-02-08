@@ -5,15 +5,15 @@ from typing import Union
 from pyrogram.types import InlineKeyboardMarkup
 
 import config
-from VIPMUSIC import Carbon, YouTube, app
-from VIPMUSIC.core.call import VIP
-from VIPMUSIC.misc import db
-from VIPMUSIC.utils.database import add_active_video_chat, is_active_chat
-from VIPMUSIC.utils.exceptions import AssistantErr
-from VIPMUSIC.utils.inline import aq_markup, close_markup, stream_markup
-from VIPMUSIC.utils.pastebin import VIPBin
-from VIPMUSIC.utils.stream.queue import put_queue, put_queue_index
-from VIPMUSIC.utils.thumbnails import get_thumb
+from MOONMUSIC import Carbon, YouTube, app
+from MOONMUSIC.core.call import MOON
+from MOONMUSIC.misc import db
+from MOONMUSIC.utils.database import add_active_video_chat, is_active_chat
+from MOONMUSIC.utils.exceptions import AssistantErr
+from MOONMUSIC.utils.inline import aq_markup, close_markup, stream_markup
+from MOONMUSIC.utils.pastebin import MOONBin
+from MOONMUSIC.utils.stream.queue import put_queue, put_queue_index
+from MOONMUSIC.utils.thumbnails import get_thumb
 
 
 async def stream(
@@ -32,7 +32,7 @@ async def stream(
     if not result:
         return
     if forceplay:
-        await VIP.force_stop_stream(chat_id)
+        await MOON.force_stop_stream(chat_id)
     if streamtype == "playlist":
         msg = f"{_['play_19']}\n\n"
         count = 0
@@ -79,7 +79,7 @@ async def stream(
                     )
                 except:
                     raise AssistantErr(_["play_14"])
-                await VIP.join_call(
+                await MOON.join_call(
                     chat_id,
                     original_chat_id,
                     file_path,
@@ -165,7 +165,7 @@ async def stream(
         else:
             if not forceplay:
                 db[chat_id] = []
-            await VIP.join_call(
+            await MOON.join_call(
                 chat_id,
                 original_chat_id,
                 file_path,
@@ -225,7 +225,7 @@ async def stream(
         else:
             if not forceplay:
                 db[chat_id] = []
-            await VIP.join_call(chat_id, original_chat_id, file_path, video=None)
+            await MOON.join_call(chat_id, original_chat_id, file_path, video=None)
             await put_queue(
                 chat_id,
                 original_chat_id,
@@ -277,7 +277,7 @@ async def stream(
         else:
             if not forceplay:
                 db[chat_id] = []
-            await VIP.join_call(chat_id, original_chat_id, file_path, video=status)
+            await MOON.join_call(chat_id, original_chat_id, file_path, video=status)
             await put_queue(
                 chat_id,
                 original_chat_id,
@@ -333,7 +333,7 @@ async def stream(
             n, file_path = await YouTube.video(link)
             if n == 0:
                 raise AssistantErr(_["str_3"])
-            await VIP.join_call(
+            await MOON.join_call(
                 chat_id,
                 original_chat_id,
                 file_path,
@@ -391,7 +391,7 @@ async def stream(
         else:
             if not forceplay:
                 db[chat_id] = []
-            await VIP.join_call(
+            await MOON.join_call(
                 chat_id,
                 original_chat_id,
                 link,
