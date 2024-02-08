@@ -1,4 +1,4 @@
-from VIPMUSIC import app
+from MOONMUSIC import app
 from pyrogram import filters
 from pyrogram.errors import RPCError
 from pyrogram.types import ChatMemberUpdated, InlineKeyboardMarkup, InlineKeyboardButton
@@ -19,14 +19,14 @@ from pyrogram.enums import ParseMode
 from pyrogram import *
 from pyrogram.types import *
 from logging import getLogger
-from VIPMUSIC.utils.vip_ban import admin_filter
+from MOONMUSIC.utils.vip_ban import admin_filter
 
 random_photo = [
-    "https://telegra.ph/file/adce6a621c1db2077df02.jpg",
-    "https://telegra.ph/file/adce6a621c1db2077df02.jpg",
-    "https://telegra.ph/file/adce6a621c1db2077df02.jpg",
-    "https://telegra.ph/file/adce6a621c1db2077df02.jpg",
-    "https://telegra.ph/file/adce6a621c1db2077df02.jpg",
+    "https://telegra.ph/file/aa015718299510040d41f.jpg",
+    "https://telegra.ph/file/aa015718299510040d41f.jpg",
+    "https://telegra.ph/file/aa015718299510040d41f.jpg",
+    "https://telegra.ph/file/aa015718299510040d41f.jpg",
+    "https://telegra.ph/file/aa015718299510040d41f.jpg",
 ]
 
 # --------------------------------------------------------------------------------- #
@@ -74,8 +74,8 @@ async def get_userinfo_img(
 
 # --------------------------------------------------------------------------------- #
 
-bg_path = "VIPMUSIC/assets/userinfo.png"
-font_path = "VIPMUSIC/assets/hiroko.ttf"
+bg_path = "MOONMUSIC/assets/userinfo.png"
+font_path = "MOONMUSIC/assets/hiroko.ttf"
 
 # --------------------------------------------------------------------------------- #
 
