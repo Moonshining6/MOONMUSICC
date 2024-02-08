@@ -1,18 +1,18 @@
 from pyrogram import Client, filters
 from pyrogram.types import Message
-from VIPMUSIC import app
+from MOONMUSIC import app
 from config import OWNER_ID
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
 # vc on
 @app.on_message(filters.video_chat_started)
 async def brah(_, msg):
-    await msg.reply("**😍ᴠɪᴅᴇᴏ ᴄʜᴀᴛ sᴛᴀʀᴛᴇᴅ🥳**")
+    await msg.reply("**💘🎧𝐕𝐈𝐃𝐄𝐎 𝐂𝐇𝐀𝐓 𝐒𝐓𝐀𝐑𝐓𝐄𝐃 🎧💘**")
 
 # vc off
 @app.on_message(filters.video_chat_ended)
 async def brah2(_, msg):
-    await msg.reply("**😕ᴠɪᴅᴇᴏ ᴄʜᴀᴛ ᴇɴᴅᴇᴅ💔**")
+    await msg.reply("**💘🎧𝐕𝐈𝐃𝐄𝐎 𝐂𝐇𝐀𝐓 𝐄𝐍𝐃𝐄𝐃 🥺🎧💘**")
 
 # invite members on vc
 @app.on_message(filters.video_chat_members_invited)
