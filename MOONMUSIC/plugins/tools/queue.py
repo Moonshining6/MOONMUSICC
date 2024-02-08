@@ -8,7 +8,7 @@ from pyrogram.types import CallbackQuery, InputMediaPhoto, Message
 import config
 from MOONMUSIC import app
 from MOONMUSIC.misc import db
-from MOONMUSIC.utils import VIPBin, get_channeplayCB, seconds_to_min
+from MOONMUSIC.utils import MOONBin, get_channeplayCB, seconds_to_min
 from MOONMUSIC.utils.database import get_cmode, is_active_chat, is_music_playing
 from MOONMUSIC.utils.decorators.language import language, languageCB
 from MOONMUSIC.utils.inline import queue_back_markup, queue_markup
