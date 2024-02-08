@@ -1,5 +1,5 @@
-from VIPMUSIC.misc import SUDOERS
-from VIPMUSIC.utils.database import get_lang, is_maintenance
+from MOONMUSIC.misc import SUDOERS
+from MOONMUSIC.utils.database import get_lang, is_maintenance
 from strings import get_string
 
 
