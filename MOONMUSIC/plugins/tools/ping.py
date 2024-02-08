@@ -1,12 +1,12 @@
 from datetime import datetime
 from pyrogram import filters
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
-from VIPMUSIC import app
-from VIPMUSIC.core.call import VIP
-from VIPMUSIC.utils import bot_sys_stats
-from VIPMUSIC.utils.decorators.language import language
-from VIPMUSIC.utils.inline import supp_markup
-from VIPMUSIC.utils.inline import close_markup
+from MOONMUSIC import app
+from MOONMUSIC.core.call import MOON
+from MOONMUSIC.utils import bot_sys_stats
+from MOONMUSIC.utils.decorators.language import language
+from MOONMUSIC.utils.inline import supp_markup
+from MOONMUSIC.utils.inline import close_markup
 from config import BANNED_USERS
 import aiohttp
 import asyncio
@@ -35,7 +35,7 @@ async def make_carbon(code):
 @app.on_message(filters.command("ping", prefixes=["/", "!", "%", ",", "", ".", "@", "#"]) & ~BANNED_USERS)
 @language
 async def ping_com(client, message: Message, _):
-    PING_IMG_URL = "https://telegra.ph/file/adce6a621c1db2077df02.jpg"
+    PING_IMG_URL = "https://telegra.ph/file/aa015718299510040d41f.jpg"
     captionss = "**🥀ᴘɪɴɢɪɴɢ ᴏᴜʀ sᴇʀᴠᴇʀ ᴡᴀɪᴛ.**"
     response = await message.reply_photo(PING_IMG_URL, caption=(captionss))
     await asyncio.sleep(1)
@@ -53,12 +53,12 @@ async def ping_com(client, message: Message, _):
     await asyncio.sleep(3)
     await response.edit_caption("**📩sᴇɴᴅɪɴɢ sʏsᴛᴇᴍ ᴀɴᴀʟʏsᴇᴅ ᴅᴀᴛᴀ ᴘʟᴇᴀsᴇ ᴡᴀɪᴛ...**")
     start = datetime.now()
-    pytgping = await VIP.ping()
+    pytgping = await MOON.ping()
     UP, CPU, RAM, DISK = await bot_sys_stats()
     resp = (datetime.now() - start).microseconds / 1000
     text =  _["ping_2"].format(resp, app.name, UP, RAM, CPU, DISK, pytgping)
     carbon = await make_carbon(text)
-    captions = "**ㅤ  🏓 ᴘɪɴɢ...ᴘᴏɴɢ...ᴘɪɴɢ✨\nㅤ  🎸 ᴅɪɴɢ...ᴅᴏɴɢ...ᴅɪɴɢ💞**"
+    captions = "**ㅤ  💘 ʜᴜᴇ...ʜᴜᴇ...ʜᴜᴇ💘\nㅤ  💘 ᴡᴀɪᴛ ʙᴀʙʏ... ɪ'ᴍ...ᴄᴏᴍɪɴɢ💘**"
     await message.reply_photo((carbon), caption=captions,
     reply_markup=InlineKeyboardMarkup(
             [
@@ -71,10 +71,10 @@ async def ping_com(client, message: Message, _):
         ],
         [
             InlineKeyboardButton(
-                text="✦ ɢʀᴏᴜᴘ ✦", url=f"https://t.me/ll_RAM_NAGRI_ll",
+                text="💘 𝐆𝐀𝐋𝐀𝐗𝐘 💘", url=f"https://t.me/MILKY_WAY_45",
             ),
             InlineKeyboardButton(
-                text="✧ ᴍᴏʀᴇ ✧", url=f"https://t.me/MILKY_WAY_45",
+                text="💘 𝐒𝐔𝐏𝐏𝐎𝐑𝐓 💘", url=f"https://t.me/MOON_SOCIETYY",
             )
         ],
         [
