@@ -22,8 +22,8 @@
 <img src="https://readme-typing-svg.herokuapp.com?color=FF0000&width=420&lines=♦𝙳𝙴𝙿𝙻𝙾𝚈+𝙾𝙽+𝙷𝙴𝚁𝙾𝙺𝚄♦;♨️+𝙽𝙾+𝙷𝙴𝚁𝙾𝙺𝚄+𝙱𝙰𝙽+𝙸𝚂𝚂𝚄𝙴+𝙰𝙻𝚂𝙾+𝚅𝙿𝚂+𝙳𝙴𝙿𝙻𝙾𝚈+📍+𝙿𝚁𝙴𝚂𝙴𝙽𝚃;🎭+𝙿𝙾𝚆𝙴𝚁𝙳+𝙱𝚈+𝐌𝐎𝐎𝐍+🎭">
 
 
-<img src="https://telegra.ph/file/aa015718299510040d41f.jpg"> 
-<img src="https://telegra.ph/file/aa015718299510040d41f.jpg">
+<img src="https://telegra.ph/file/3030aef8844fd15853dc7.jpg"> 
+<img src="https://telegra.ph/file/3030aef8844fd15853dc7.jpg">
 
 ![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=Moonshining6&repo=MOONMUSICC&theme=flag-india)
 
@@ -32,10 +32,10 @@
 
 
 <p align="center">
-  <img src="https://telegra.ph/file/aa015718299510040d41f.jpg">
+  <img src="https://telegra.ph/file/3030aef8844fd15853dc7.jpg">
 </p>
 
-**𝙏𝙀𝙎𝙏 𝘽𝙊𝙏 ➣ [𝄟ॐ❥𝗧𝗚🍷𝗩𝗖🌷𝗕𝗢𝗧❥𝄟⃟🥀](https://t.me/Moon_Music_1_Bot)**
+**𝙏𝙀𝙎𝙏 𝘽𝙊𝙏 ➣ [◄⏤͟͟🥀🩵 ╚ 𝗠❍❍𝗡 ✘ 𝗥❍𝗕𝗢 ╝🩵 🥀🦋◄⏤](https://t.me/Moon_Music_1_Bot)**
 
 
 
@@ -93,5 +93,5 @@ Press `Ctrl+C` when you're done with editing env and `:wq` to save the env<br>
 <a href="https://t.me/ABOUT_UR_MOON"><img title="Telegram" src="https://img.shields.io/badge/Telegram-%23000000.svg?&style=for-the-badge&logo=telegram&logoColor=61DAFB"></a>
 <a href="https://www.instagram.com/blessed_with_shree_krishna"><img title="Instagram" src="https://img.shields.io/badge/instagram-%23E4405F.svg?&style=for-the-badge&logo=instagram&logoColor=white"></a>
 
-<img src="https://telegra.ph/file/aa015718299510040d41f.jpg">
-<img src="https://telegra.ph/file/aa015718299510040d41f.jpg">
+<img src="https://telegra.ph/file/3030aef8844fd15853dc7.jpg">
+<img src="https://telegra.ph/file/3030aef8844fd15853dc7.jpg">
