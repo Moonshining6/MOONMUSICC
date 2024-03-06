@@ -22,8 +22,8 @@
 <img src="https://readme-typing-svg.herokuapp.com?color=FF0000&width=420&lines=♦𝙳𝙴𝙿𝙻𝙾𝚈+𝙾𝙽+𝙷𝙴𝚁𝙾𝙺𝚄♦;♨️+𝙽𝙾+𝙷𝙴𝚁𝙾𝙺𝚄+𝙱𝙰𝙽+𝙸𝚂𝚂𝚄𝙴+𝙰𝙻𝚂𝙾+𝚅𝙿𝚂+𝙳𝙴𝙿𝙻𝙾𝚈+📍+𝙿𝚁𝙴𝚂𝙴𝙽𝚃;🎭+𝙿𝙾𝚆𝙴𝚁𝙳+𝙱𝚈+𝐌𝐎𝐎𝐍+🎭">
 
 
-<img src="https://telegra.ph/file/3030aef8844fd15853dc7.jpg"> 
-<img src="https://telegra.ph/file/3030aef8844fd15853dc7.jpg">
+<img src="https://graph.org/file/ef1b92c1133dcad2739e2.jpg"> 
+<img src="https://graph.org/file/ef1b92c1133dcad2739e2.jpg">
 
 ![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=Moonshining6&repo=MOONMUSICC&theme=flag-india)
 
@@ -32,7 +32,7 @@
 
 
 <p align="center">
-  <img src="https://telegra.ph/file/3030aef8844fd15853dc7.jpg">
+  <img src="https://graph.org/file/ef1b92c1133dcad2739e2.jpg">
 </p>
 
 **𝙏𝙀𝙎𝙏 𝘽𝙊𝙏 ➣ [◄⏤͟͟🥀🩵 ╚ 𝗠❍❍𝗡 ✘ 𝗥❍𝗕𝗢 ╝🩵 🥀🦋◄⏤](https://t.me/Moon_Music_1_Bot)**
@@ -56,7 +56,7 @@
 
 <img src="https://readme-typing-svg.herokuapp.com?color=FF0000&width=420&lines=⚠️𝐈𝐟+𝐀𝐧𝐲+𝐄𝐫𝐫𝐨𝐫+𝐓𝐡𝐞𝐧+𝐒𝐞𝐧𝐝+𝐄𝐫𝐫𝐨𝐫+𝐈𝐧+𝐌𝐎𝐎𝐍+𝐃𝐦+...">
 <p align="center">
-<a href="https://telegram.me/ABOUT_UR_MOON"><img src="https://img.shields.io/badge/-☆𝐃𝐌 𝐓𝐎 𝐌𝐎𝐎𝐍 𝐁𝐎𝐘%20☆-blue.svg?style=for-the-badge&logo=Telegram"></a>
+<a href="https://telegram.me/ABOUT_UR_MOON"><img src="https://img.shields.io/badge/-☆𝐃𝐌 𝐓𝐎 𝐌𝐎𝐎𝐍 %20☆-blue.svg?style=for-the-badge&logo=Telegram"></a>
 </p>
 <h3 align="center">
     ─「 ᴅᴇᴩʟᴏʏ ᴏɴ ʟᴏᴄᴀʟ ʜᴏsᴛ/ ᴠᴘs 」─
