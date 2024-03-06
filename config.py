@@ -39,7 +39,7 @@ GIT_TOKEN = getenv(
 )  # Fill this variable if your upstream repository is private
 
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/MOON_SOCIETYY")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/MILKY_WAY_45")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/MILKYYYYY_WAYYY")
 
 # Maximum Limit Allowed for users to save playlists on bot's server
 SERVER_PLAYLIST_LIMIT = int(getenv("SERVER_PLAYLIST_LIMIT", "3000"))
@@ -112,21 +112,21 @@ clean = {}
 autoclean = []
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://telegra.ph/file/3030aef8844fd15853dc7.jpg"
+    "START_IMG_URL", "https://graph.org/file/ef1b92c1133dcad2739e2.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://telegra.ph/file/3030aef8844fd15853dc7.jpg"
+    "PING_IMG_URL", "https://graph.org/file/1d1fb3c6111463bd518a6.mp4"
 )
-PLAYLIST_IMG_URL = "https://telegra.ph/file/3030aef8844fd15853dc7.jpg"
-STATS_IMG_URL = "https://telegra.ph/file/3030aef8844fd15853dc7.jpg"
-TELEGRAM_AUDIO_URL = "https://telegra.ph/file/3030aef8844fd15853dc7.jpg"
-TELEGRAM_VIDEO_URL = "https://telegra.ph/file/3030aef8844fd15853dc7.jpg"
-STREAM_IMG_URL = "https://telegra.ph/file/3030aef8844fd15853dc7.jpg"
-SOUNCLOUD_IMG_URL = "https://telegra.ph/file/3030aef8844fd15853dc7.jpg"
-YOUTUBE_IMG_URL = "https://telegra.ph/file/3030aef8844fd15853dc7.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://telegra.ph/file/3030aef8844fd15853dc7.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://telegra.ph/file/3030aef8844fd15853dc7.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://telegra.ph/file/3030aef8844fd15853dc7.jpg"
+PLAYLIST_IMG_URL = "https://graph.org/file/ef1b92c1133dcad2739e2.jpg"
+STATS_IMG_URL = "https://graph.org/file/ef1b92c1133dcad2739e2.jpg"
+TELEGRAM_AUDIO_URL = "https://graph.org/file/ef1b92c1133dcad2739e2.jpg"
+TELEGRAM_VIDEO_URL = "https://graph.org/file/ef1b92c1133dcad2739e2.jpg"
+STREAM_IMG_URL = "https://graph.org/file/ef1b92c1133dcad2739e2.jpg"
+SOUNCLOUD_IMG_URL = "https://graph.org/file/ef1b92c1133dcad2739e2.jpg"
+YOUTUBE_IMG_URL = "https://graph.org/file/ef1b92c1133dcad2739e2.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://graph.org/file/ef1b92c1133dcad2739e2.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://graph.org/file/ef1b92c1133dcad2739e2.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://graph.org/file/ef1b92c1133dcad2739e2.jpg"
 
 
 def time_to_seconds(time):
