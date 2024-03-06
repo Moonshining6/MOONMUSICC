@@ -1,7 +1,7 @@
 {
     "name": "🫧˹𝑱𝙚𝙣𝙣𝙞𝙚 ✘ 𝙍𝙤𝙗𝙤 ˼ ~🥀",
     "description": "A Telegram Music Player Bot, written in Python with Pyrogram and Py-Tgcalls.",
-    "logo": "https://telegra.ph/file/3030aef8844fd15853dc7.jpg",
+    "logo": "https://graph.org/file/ef1b92c1133dcad2739e2.jpg",
     "keywords": [
     "python3",
     "telegram",
@@ -64,7 +64,7 @@
       },
       "START_IMG_URL": {
         "description": "𝐅𝐈𝐋𝐋 𝐇𝐄𝐑𝐄 𝐘𝐎𝐔𝐑 𝐒𝐓𝐀𝐑𝐓 𝐁𝐎𝐓 𝐈𝐌𝐀𝐆𝐄 𝐔𝐑𝐋, 𝐆𝐄𝐓 𝐈𝐓 𝐅𝐑𝐎𝐌 ;- t.me/vTelegraphBot",
-        "value": "https://telegra.ph/file/3030aef8844fd15853dc7.jpg",
+        "value": "https://graph.org/file/ef1b92c1133dcad2739e2.jpg",
         "required": false
       },
       "LOGGER_ID": {
