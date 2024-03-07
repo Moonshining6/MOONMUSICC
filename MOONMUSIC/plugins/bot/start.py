@@ -26,11 +26,11 @@ from strings import get_string
 
 
 YUMI_PICS = [
-"https://graph.org/file/1d1fb3c6111463bd518a6.mp4",
-"https://graph.org/file/1d1fb3c6111463bd518a6.mp4",
-"https://graph.org/file/1d1fb3c6111463bd518a6.mp4g",
-"https://graph.org/file/1d1fb3c6111463bd518a6.mp4",
-"https://graph.org/file/1d1fb3c6111463bd518a6.mp4"
+"https://graph.org/file/0187c41c6749e1078983e.jpg",
+"https://graph.org/file/0187c41c6749e1078983e.jpg",
+"https://graph.org/file/0187c41c6749e1078983e.jpg",
+"https://graph.org/file/0187c41c6749e1078983e.jpg",
+"https://graph.org/file/0187c41c6749e1078983e.jpg"
 
 ]
 
